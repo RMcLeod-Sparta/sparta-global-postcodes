@@ -88,7 +88,7 @@ class Postcodesio
 
 pc = Postcodesio.new
 
-p pc.get_single_postcode("OX495NU")
+pc.get_single_postcode("OX495NU")
 
 pc.get_multiple_postcodes(["OX495NU","RG189EY","KT66HY"])
 
